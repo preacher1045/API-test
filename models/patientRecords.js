@@ -26,7 +26,11 @@ const patientSchema = mongoose.Schema(
             type:String,
             required: false
         },
-        Emergency_contact:
+        Emergency_contact:{
+            type:Number,
+            required: false
+        },
+        Relationship_With_patient:
 
     }
 )
